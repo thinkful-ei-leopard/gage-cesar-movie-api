@@ -47,6 +47,4 @@ function handleGetMovie(req, res) {
 
 app.get('/movie', handleGetMovie);
 
-app.listen(9000, () => {
-  console.log('Listening on 9000')
-});
+module.exports = app;

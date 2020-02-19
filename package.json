@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,10 @@
     "helmet": "^3.21.2",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "supertest": "^4.0.2"
   }
 }
